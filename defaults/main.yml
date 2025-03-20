@@ -1,2 +1,8 @@
 ---
 rhel_security_sa: true
+group_name: "security"
+ssh_pub_key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILFYAIRqow1CEzESWCXWPBOHp/EyMjfrq5zPtWp2AQCc lab_bot@framework13-centos10"
+tmp_password: "$6$rounds=656000$mysecretsalt$eAieC11.b9YrreFtSVQGB0wK2gxhlNk0IOYmtbF7OLGgHFG0Ie99zSZm8wr7P9ALqtshUmn8Wo2gvJPSx5oPS0"
+service_accounts:
+  - name: "lab-sa"
+  - name: "log-sa"
